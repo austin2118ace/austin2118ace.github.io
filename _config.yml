@@ -1,0 +1,74 @@
+# Forked from https://github.com/jeromelachaud/freelancer-theme
+
+# Github Theme
+remote_theme: freelancer-theme
+
+# Site settings
+title: Austin Pauley
+email: austin2118ace@gmail.com
+url: https://austin2118ace.com
+description: "Personal website for Austin Pauley"
+keywords: ""
+skills: "Python Developer - Lab Technician - Problem Solver"
+meta_author: Pauley Austin
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Austin Pauley,
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/austin2118ace
+  - title: github
+    url: http://github.com/olfactorybehaviorlab
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Dewan Lab
+  - line: Florida State University
+  - line: 1107 W. Call St
+  - line: Tallahassee, FL 32303
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
+
+livereload: true
