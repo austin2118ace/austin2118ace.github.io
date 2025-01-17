@@ -1,32 +1,9 @@
-Freelancer Jekyll theme  
-=========================
+# My Personal Website
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Theme: <https://github.com/jeromelachaud/freelancer-theme>
+> Note: I forked the original theme and made several small changes so the static resource URLs resolve correctly if you create sub pages  
+> The forked theme can be found [here.](https://github.com/austin2118ace/freelancer-theme)
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2020-01-18
-img: cabin.png
-alt: image-alt
-project-date: January 2020
-client: The Client
-category: Web Development
-description: The description of the project
+## Special Thanks
 
----
-```
-
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
-
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+Website Icon: <https://icon-icons.com/icon/tech-electronics/156954>
